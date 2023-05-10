@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background: transparent;
+}
+html{
+    scroll-behavior: smooth;
+}
+.hero{
+    width: 60%;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-in-between;
+    padding: 50px 100px;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: orange;
+    position: relative;
+    padding: 5px 0;
+}
+nav ul li a:hover{
+    color: blue;
+}
+nav ul li a:after {
+  
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #fd4766;
+  transition: 0.3s;
+  bottom: 0;
+}
+nav ul li a:hover:after {
+  width: 100%;
+}
+.Home{
+    position: absolute;
+  top: 35%;
+  left: 8%;
+}
+.title{
+    font-size: 20px;
+    display: inline-block;
+    letter-spacing: 4px;
+    color: blue;
+}
+.title h3{
+    color: blue;
+    font-size: 70px;
+    font-weight: 900;
+    width: 70%;
+}
+.Home{
+    display: centre;
+    font-size: 45px;
+    font-weight: 400;
+}
+.title{
+    font-size: 45px;
+    font-weight: 500px;
+}
+.Home h1{
+    display: centre;
+    align-items: centre;
+    justify-content: space-in-between;
+    line-height: 1em;
+}
+.Home p{
+    align-items: centre;
+    align-content: centre;
+    font-size: 45%;
+    font-weight: 400;
+    line-height: 1em;
+    justify-content: space-in-between;
+
+}
+.btn{
+    padding: 10px 35px;
+    background-color: blue;
+    border: 1px solid red;
+    color: transparent;
+
+
+}
+.btn:hover{
+    transition: all .4s ease;
+    color: red;
+    text-transform: uppercase;
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+.About {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+.About content{
+    position: centre;
+    left: 45%;
+
+}
+ h1{
+    font-size: 60px;
+    font-weight: 500;
+    font-family: sans-serif;
+    display: inline-block;
+    line-height:1.2;
+    right: 45%;
+    padding: 5px 6px;
+    margin: 20px;
+    color: blue;
+}
+p{
+    font-size:20px;
+    font-weight: 200;
+    font-family: centuary;
+    display: inline-block;
+    justify-content: centre;
+    align-items: centre;
+    align-content: flex-end;
+    float: right;  
+}
+#Services{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: centre;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background-color:white;
+    transition: all .4s ease;
+}
+.box:hover{
+    background-position: left-bottom;
+    color: red;
+    border:none;
+    box-shadow: 0 0 20px rgb(200, 45, 45);
+}
+
